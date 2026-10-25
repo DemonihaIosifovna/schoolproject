@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --sus: calc(1vw / 1vh);
+}
+
+.topbar {
+    width: 100%;
+    height: calc(var(--index) * 5);
+    margin-top: 0;
+    background-color: black;
+    position: relative;
+}
+
+.leftbar {
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 25%;
+}
+
+.main-canvas {
+    position: absolute;
+    size: 50%;
+    width: 100%;
+}
